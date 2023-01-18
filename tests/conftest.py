@@ -18,13 +18,5 @@ def setup(request):
     request.cls.driver = driver
     driver.get("https://demoqa.com/automation-practice-form")
     driver.maximize_window()
-    driver.set_window_size(375, 667)
-    # driver.execute_script("document.body.style.zoom='60%'")
-    # time.sleep(3)
-    # yield driver
-    # driver.close()
-
-
-@pytest.fixture(scope="session", autouse=True)
-def faker_session_locale():
-    return ['ru_RU', 'en_US']
+    yield driver
+    driver.close()

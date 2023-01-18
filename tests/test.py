@@ -1,7 +1,5 @@
 import os
-
 import pytest
-
 from config import PROJECT_PATH
 from pages.StudentPage import StudentPage
 
@@ -12,7 +10,10 @@ class Test:
         sp_test = StudentPage(self.driver)
         sp_test.fill_text_fields()
         sp_test.click_random_gender_radio_button()
-        sp_test.click_random_month_date_of_birth()
+        sp_test.click_random_month_year_day_date_of_birth()
+        sp_test.choose_random_subject()
         sp_test.click_random_hobby()
         sp_test.choose_picture().send_keys(os.path.join(PROJECT_PATH, "datas\\igK4HwxAGqY.jpg"))
-        # sp_test.click_random_state()
+        sp_test.click_random_state()
+        sp_test.click_random_city()
+        sp_test.click_submit_button()
