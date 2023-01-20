@@ -18,5 +18,5 @@ def setup(request):
     request.cls.driver = driver
     driver.get("https://demoqa.com/automation-practice-form")
     driver.maximize_window()
-    yield driver
-    driver.close()
+    # yield driver
+    # driver.close()
