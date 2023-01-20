@@ -19,22 +19,22 @@ class Test:
         sp_test.click_submit_button()
 
         output_full_name, output_email, output_mobile, output_current_address = sp_test.output_text_fields()
-        assert input_full_name == output_full_name, "the full name does not match"
-        assert input_email == output_email, "the email does not match"
-        assert input_mobile == output_mobile, "the mobile does not match"
-        assert input_current_address == output_current_address, "the current address does not match"
+        assert input_full_name == output_full_name
+        assert input_email == output_email
+        assert input_mobile == output_mobile
+        assert input_current_address == output_current_address
 
         output_gender = sp_test.check_output_gender()
-        assert input_gender == output_gender, "gender doesnt match"
+        assert input_gender == output_gender
 
         output_date_of_birth = sp_test.check_output_date_of_birth()
-        assert input_date_of_birth == output_date_of_birth, "date of birth doesnt match"
+        assert input_date_of_birth == output_date_of_birth
 
         output_subject = sp_test.check_output_subject()
-        assert input_subject == output_subject, "subjects doesnt match"
+        assert input_subject == output_subject
 
         output_hobbies = sp_test.check_output_hobbies()
-        assert input_hobbies == output_hobbies, "hobbies doesnt match"
+        assert input_hobbies == output_hobbies
 
         output_state_city = sp_test.check_output_state_city()
-        assert input_state_city == output_state_city, "subjects doesnt match"
+        assert input_state_city == output_state_city
