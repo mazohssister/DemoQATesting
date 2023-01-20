@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae2ee7f5-956f-4d01-9683-873a5dd2f502" name="Changes" comment="added input form's filling">
+    <list default="true" id="ae2ee7f5-956f-4d01-9683-873a5dd2f502" name="Changes" comment="added checking of input/output data">
       <change afterPath="$PROJECT_DIR$/pages/SubmittingFormPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/BasePage.py" afterDir="false" />
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674058049435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added checking of input/output data">
+      <created>1674203667585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203667585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="only state doesn't work" />
     <MESSAGE value="added input form's filling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added input form's filling" />
+    <MESSAGE value="added checking of input/output data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added checking of input/output data" />
   </component>
 </project>
